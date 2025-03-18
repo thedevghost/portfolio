@@ -69,5 +69,28 @@ a{
 .home-info h2{
     font-size: 32px;
     margin-top: -10px;
-    
+
+}
+.home_info p {
+    font-size:16px;
+    align-items:center;
+
+}
+.btn{
+    display : inline-block;
+    padding : 10px 30px;
+    background: #08b324;
+    border : 2px solid #08b324;
+    border-radius : 40px;
+    box-shadow: 0 0 10 #08b324;
+    font-size :16px;
+    color: #1f242d;
+    font-weight:600;
+    transition: .5s;
+
+}
+.btn:hover {
+    background-color: transparent;
+    color : #08b324;
+    box-shadow : none;
 }
